@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+
+        }
+        span {
+            display: inline-block;
+            width: 80px;
+        }
+
+        #favorite{
+            display: flex;
+            width: 100%;
+        }
+
+        #title{
+            flex: 12%;
+
+        }
+
+        #content{
+            flex: 88%;
+
+        }
+
+        .name{
+            box-shadow: 0 5px 5px;
+            width: 30%;
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .soo{
+            background: orangered;
+        }
+        .number{
+            box-shadow: 0 5px 5px;
+            width: 30%;
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .male{
+            background: orange;
+        }
+    </style>
+</head>
+<body>
+<div class="name">
+    <form>
+        <div class="soo">
+            <h1>SỞ THÍCH CỦA BẠN</h1>
+        </div>
+        <div>
+            <span>
+        Họ Và Tên
+    </span>
+            <input type="text" name="firstname">
+        </div>
+
+        <div>
+            <span>
+Email
+    </span>
+            <input type="text" name="email">
+        </div>
+
+        <div id="favorite">
+            <div id="title">
+                Sở thích
+            </div>
+
+            <div id="content">
+                <label><input name="hobby" value="travel" type="checkbox">Thể thao</label>
+                <label><input name="hobby" value="travel" type="checkbox">Âm nhạc</label>
+                <label><input name="hobby" value="travel" type="checkbox">Đọc sách</label>
+                <br>
+                <label><input name="hobby" value="travel" type="checkbox">Lướt wed</label>
+                <label><input name="hobby" value="travel" type="checkbox">Chơi game</label>
+                <label><input name="hobby" value="travel" type="checkbox">Điện ảnh</label>
+                <br>
+                <label><input name="hobby" value="travel" type="checkbox">Du lịch</label>
+                <br>
+            </div>
+        </div>
+        <input type="submit" value="Gửi thông tin ">
+        <input type="reset" value="Nhập lại">
+    </form>
+</div>
+
+
+</body>
+</html>
