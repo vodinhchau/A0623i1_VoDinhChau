@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+
+        }
+        span {
+            display: inline-block;
+            width: 80px;
+        }
+
+        #favorite{
+            display: flex;
+            width: 100%;
+        }
+
+        #title{
+            flex: 12%;
+
+        }
+
+        #content{
+            flex: 88%;
+
+        }
+
+        .name{
+            box-shadow: 0 5px 5px;
+            width: 30%;
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .soo{
+            background: orangered;
+        }
+        .number{
+            box-shadow: 0 5px 5px;
+            width: 30%;
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .male{
+            background: orange;
+        }
+    </style>
+</head>
+<body>
+<div class="number">
+    <form>
+        <div class="male">
+            <h1>ĐĂNG KÝ HỌC VIỆN</h1>
+        </div>
+
+        <div>
+    <span>
+    Họ Và Tên
+    </span>
+            <input type="text" name="firstname">
+        </div>
+        <div>
+    <span>
+    Ngày Sinh
+    </span>
+            <input type="text" name="firstname">
+        </div>
+        <span>
+    Giới tính
+    </span>
+        <label><input name="hobby" value="travel" type="radio" checked> Nam</label>
+        <label><input name="hobby" value="travel" type="radio" checked> Nữ</label>
+        <div>
+    <span>
+    Địa chỉ
+    </span>
+
+        </div>
+        <textarea cols="50" rows="4"></textarea>
+        <div>
+        <span>
+    Lớp
+        </span>
+            <select name="lớp">
+                <option value="CL">-Chọn Lớp-</option>
+            </select>
+        </div>
+        <div>
+        <span>
+    Email
+        </span>
+            <input type="text" name="email">
+        </div>
+        <div>
+        <span>
+    Điện thoại
+        </span>
+            <input type="text" name="firstname">
+        </div>
+        <input type="submit" value="Gửi thông tin ">
+        <input type="reset" value="Nhập lại">
+    </form>
+</div>
+</body>
+</html>
